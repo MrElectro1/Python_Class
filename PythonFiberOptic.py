@@ -1,0 +1,18 @@
+# Eric Hayden 03/25/2021
+# Introdusing the software, telling the customer the pricing
+print("Hello welcome to Fiber Optic Inc.")
+print("The pricing of our fiber optic cabling is $0.87/ft")
+# Geting the name of the customers company
+print("Please enter your company name bellow to get started")
+CustomerName=input("Please enter company name here:\n")
+# Obtaining the customers order
+print("Now please enter the length of cable required per ft")
+feet=int(input("Please enter length required here: "))
+# Calculating the price
+print("Calculating please wait...")
+price=0.87
+total=feet*price
+# Outputing the total cost
+print('Your total comes out to', total)
+# Goodbye message to the custiomer
+print('Thank you for your patronage', CustomerName)
